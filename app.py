@@ -13,7 +13,7 @@ from io import BytesIO
 @st.cache_data(ttl=3600)  # Cache for 1 hour
 def get_climate_data():
     # Dropbox direct download link (replace with your actual file ID)
-    DATA_URL = "https://www.dropbox.com/scl/fi/8eqzalmgvv9u7egjgyrt1/GlobalData.zip?rlkey=bf1qyz7f5atxr2c6es0ucdbdb&st=mi1ucho9&dl=1"    
+    DATA_URL = "https://www.dropbox.com/scl/fi/8eqzalmgvv9u7egjgyrt1/GlobalData.zip?rlkey=bf1qyz7f5atxr2c6es0ucdbdb&st=7tkmqoqr&dl=1"    
     # Required files check
     required_files = {
         'GlobalTemperatures.csv': None,
